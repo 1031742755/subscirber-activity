@@ -35,8 +35,8 @@ public class PhoneNumberChecker {
         conn.setDoOutput(true);
 
         // 设置请求参数
-        String data = "grant_type=" + URLEncoder.encode("password", "UTF-8") +
-                "&client_id=" + URLEncoder.encode("ip-subscriber-activity", "UTF-8") +
+        String data = "grant_type=" + URLEncoder.encode("xxx", "UTF-8") +
+                "&client_id=" + URLEncoder.encode("xxx", "UTF-8") +
                 // 🌟🌟🌟注意使用的测试账号🌟🌟🌟
                 "&username=" + URLEncoder.encode("xxx", "UTF-8") +
                 "&password=" + URLEncoder.encode("xxx", "UTF-8");
