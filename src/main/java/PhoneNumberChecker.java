@@ -170,7 +170,7 @@ public class PhoneNumberChecker {
                             operatorCell.setCellValue("NULL");
                             continue;
                         }
-                       String checkUrl = "https://api.ipification.com/subscriber/status/v1/"+phoneNumber;  // 替换手机号码到URL
+                       String checkUrl = "https://api.ipification.com/subscriber/status/v1/"+temp;  // 替换手机号码到URL
                         try {
                             JSONObject jsonObject = checkPhoneNumberStatus(checkUrl, token);
                             String device = jsonObject.optString("device_status", "null");
